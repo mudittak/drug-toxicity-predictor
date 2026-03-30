@@ -175,6 +175,6 @@ curl -X POST http://localhost:8000/api/predict \
 
 ---
 
-## 👥 Team
+## 👥 Team Effort
 
 Built for **CodeCure AI Hackathon 2026** · Track A: Drug Toxicity Prediction
