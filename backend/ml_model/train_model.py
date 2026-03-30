@@ -19,6 +19,7 @@ Output files:
     model_info.pkl     — metadata (feature count, etc.)
 """
 
+# Import libraries for model training 
 import numpy as np
 import pickle
 import os
