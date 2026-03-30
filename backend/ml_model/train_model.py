@@ -3,14 +3,14 @@ train_model.py
 ==============
 ML model training script for drug toxicity prediction.
 
-How it works:
-    1. Define known toxic and safe SMILES compounds
-    2. Extract Morgan fingerprints + RDKit descriptors from each
-    3. Train a Random Forest classifier on these features
-    4. Evaluate model accuracy and print classification report
-    5. Save trained model as toxicity_model.pkl
+How the model works:
+    1. Define known toxic and safe SMILES compounds.
+    2. Extract Morgan fingerprints + RDKit descriptors from each.
+    3. Train a Random Forest classifier on these features.
+    4. Evaluate model accuracy and print classification report.
+    5. Save trained model as toxicity_model.pkl.
 
-Run this once before starting the backend:
+Make sure to Run this once before starting the backend:
     cd backend/ml_model
     python train_model.py
 
